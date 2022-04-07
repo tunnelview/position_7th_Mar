@@ -18,10 +18,12 @@ body {
 
 .child1 {
   background: red;
+  position: sticky;
+  top: 5px;
 }
 .child2 {
   background: green;
-  position: postion;
+  position: absolute;
   right: 50px;
 }
 .child3 {
@@ -32,5 +34,7 @@ body {
 }
 .sticky {
   background: orange;
-  position: fixed;
+  /* position: fixed; */
+  position: sticky;
+  top: 5px;
 }
