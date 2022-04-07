@@ -8,6 +8,7 @@ body {
   background: blue;
   min-height: 100 vh;
   padding: 1rem;
+  position: relative;
 }
 
 .parent > div {
@@ -20,12 +21,14 @@ body {
 }
 .child2 {
   background: green;
-  position: relative;
-  top: 20px;
-  left: -20px;
+  position: postion;
+  right: 50px;
 }
 .child3 {
   background: grey;
+  /* position: relative;
+  top: 20px;
+  left: -20px; */
 }
 .sticky {
   background: orange;
