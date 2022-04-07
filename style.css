@@ -1,0 +1,29 @@
+body {
+  font-size: 2rem;
+}
+
+/* postions: static, relative, absolute, fixed, sticky, initial, inherit */
+
+.parent {
+  background: blue;
+  min-height: 100 vh;
+  padding: 1rem;
+}
+
+.parent > div {
+  height: 150px;
+  padding: 1rem;
+}
+
+.child1 {
+  background: red;
+}
+.child2 {
+  background: green;
+}
+.child3 {
+  background: grey;
+}
+.sticky {
+  background: orange;
+}
