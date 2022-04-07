@@ -32,4 +32,5 @@ body {
 }
 .sticky {
   background: orange;
+  position: fixed;
 }
